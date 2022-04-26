@@ -1,0 +1,30 @@
+// import scss
+@import url("../../assets/styles/global.scss");
+
+// variables
+$light: #ffffff;
+$dark: #000000;
+
+.footer {
+  &__wrapper {
+    @apply px-14 pt-14 pb-8 flex flex-row items-center justify-between;
+    font-size: 13px;
+    font-family: "Anonymous Pro";
+    font-weight: bold;
+  }
+
+  &__brand {
+    letter-spacing: 2.5px;
+    margin-right: -2.5px;
+    font-size: 0.75rem;
+    text-shadow: 0px 0px 1px $light;
+    font-family: "Manifold Extended CF";
+    margin-top: 2px;
+  }
+
+  &__icons {
+    a {
+      @apply ml-10;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+// button mixin
+@mixin button {
+  font-family: "Anonymous Pro";
+  background-color: transparent;
+  color: $light;
+  font-size: 14px;
+  border: 2px solid $light;
+  transition: 0.35s all ease-in;
+  padding: 8px 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  @apply px-7;
+}
+
+@mixin buttonHover {
+  background-color: $light;
+  border: 2px solid $light;
+  transition: 0.35s all ease-out;
+  color: $dark;
+}

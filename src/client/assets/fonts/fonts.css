@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Manifold Extended CF";
+  src: url(../../assets/fonts/ManifoldExtendedCF-Heavy.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Manifold Extended CF";
+  src: url(../../assets/fonts/ManifoldExtendedCF-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Manifold Extended CF";
+  src: url(../../assets/fonts/ManifoldExtendedCF-Bold.ttf);
+  font-weight: 700;
+}

@@ -1,0 +1,44 @@
+// imports
+@import "../../assets/styles/global.scss";
+
+.fullCard {
+  height: 28.5em;
+  position: relative;
+  border-radius: 15px;
+
+  &__img {
+    height: 28.5em;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  &__content {
+    @apply text-center absolute py-10 pt-24;
+    bottom: 0;
+    width: 100%;
+    border-radius: 13px;
+    font-family: "Anonymous Pro";
+    background: linear-gradient(to top, $dark, rgba($dark, 0));
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0.5px $light;
+  }
+
+  &__price {
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    color: $gray;
+  }
+
+  &__btn {
+    @include button;
+    @apply mt-6;
+  }
+
+  &__btn:hover {
+    @include buttonHover;
+  }
+}

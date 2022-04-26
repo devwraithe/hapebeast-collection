@@ -1,0 +1,45 @@
+// imports
+@import "../../assets/styles/global.scss";
+
+// restrict component
+.restrict {
+  @include media-min(xl-min) {
+    display: none;
+  }
+
+  @include media-max(lg-max) {
+    padding: 10em;
+    @apply fixed;
+    background-color: $dark;
+    color: $light;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+
+    .wrapper {
+      @apply absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+
+      .title {
+        @include media-max(xs-max) {
+          font-size: 8vw;
+        }
+        @include media-min(sm-min) {
+          font-size: 6vw;
+        }
+        @include media-min(lg-min) {
+          font-size: 4vw;
+        }
+        font-weight: 900;
+      }
+
+      .subtitle {
+        font-weight: 400;
+        margin-top: 0;
+      }
+    }
+  }
+}

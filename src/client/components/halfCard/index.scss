@@ -1,0 +1,40 @@
+// imports
+@import "../../assets/styles/global.scss";
+
+.halfCard {
+  @apply overflow-hidden p-3 rounded-xl;
+  background-color: $dark-100;
+  color: $light;
+  font-family: "Anonymous Pro";
+
+  &__img {
+    @apply w-full rounded-lg;
+    height: 18em;
+    object-fit: cover;
+  }
+
+  &__content {
+    @apply mt-5 px-3;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: $gray;
+    text-shadow: 0.5px $gray;
+  }
+
+  &__price {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  &__btn {
+    @apply mt-5 mb-4 px-5;
+    @include button;
+  }
+
+  &__btn:hover {
+    @include buttonHover;
+  }
+}
