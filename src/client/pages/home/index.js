@@ -52,7 +52,7 @@ const App = () => {
                   for a bigger future.
                 </p>
               </div>
-              <button class="intro__btn">Explore on OpenSea</button>
+              <button className="intro__btn">Explore on OpenSea</button>
             </section>
 
             {/* about */}
@@ -79,7 +79,7 @@ const App = () => {
                     and it still is...<b>HAPE!</b>
                   </p>
                 </div>
-                <button class="about__btn">Purchase on OpenSea</button>
+                <button className="about__btn">Purchase on OpenSea</button>
               </div>
             </section>
 

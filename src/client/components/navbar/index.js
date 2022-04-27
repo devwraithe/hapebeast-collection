@@ -10,8 +10,7 @@ const Navbar = () => {
       <div className="navbar__wrapper">
         <div className="navbar__brand">HPBST</div>
         <div className="navbar__button">
-          <button class="navbar__btn">Get HAPES</button>
-          <button class="navbar__btn">Connect Wallet</button>
+          <button class="navbar__btn">View HAPES</button>
         </div>
       </div>
     </nav>
